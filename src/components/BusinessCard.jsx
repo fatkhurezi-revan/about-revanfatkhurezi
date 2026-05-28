@@ -10,11 +10,11 @@ const BusinessCard = () => {
     >
       <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-accent-purple rounded-3xl blur opacity-0 group-hover:opacity-20 transition duration-300"></div>
       <div className="bg-surface-white dark:bg-dark-surface border border-border-subtle dark:border-dark-border rounded-3xl p-6 md:p-8 flex flex-col items-center text-center gap-6 shadow-ambient dark:shadow-ambient-dark relative z-10 transition-colors duration-300">
-        <div className="w-20 h-20 rounded-2xl bg-surface-bright dark:bg-dark-bg border border-border-subtle dark:border-dark-border flex-shrink-0 overflow-hidden shadow-sm flex items-center justify-center mt-4 p-2">
+        <div className="w-20 h-20 rounded-2xl bg-surface-bright dark:bg-dark-bg border border-border-subtle dark:border-dark-border flex-shrink-0 overflow-hidden shadow-sm flex items-center justify-center mt-4">
           <img 
             src={revtechLogo} 
             alt="RevTech Logo" 
-            className="w-full h-full object-contain rounded-xl"
+            className="w-full h-full object-cover"
           />
         </div>
         
