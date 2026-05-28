@@ -28,7 +28,7 @@ function App() {
       <div className="fixed top-[-20%] left-[-10%] w-[50%] h-[50%] bg-primary/10 dark:bg-primary/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
       <div className="fixed bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-accent-purple/10 dark:bg-accent-purple/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
 
-      <div className="relative z-10 py-16 md:py-24 flex flex-col items-center">
+      <div className="relative z-10 pt-16 md:pt-24 pb-8 flex flex-col items-center min-h-screen">
         {/* Theme Toggle */}
         <button 
           onClick={() => setDarkMode(!darkMode)}
