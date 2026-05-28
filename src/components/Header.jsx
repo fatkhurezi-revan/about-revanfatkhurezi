@@ -33,7 +33,7 @@ const Header = () => {
           ))}
         </div>
         <p className="text-base text-outline dark:text-dark-on-surface-variant max-w-lg mt-3 leading-relaxed">
-          Solusi digital modern untuk berbagai kebutuhan!
+          Tempatnya solusi digital!
         </p>
       </div>
 
