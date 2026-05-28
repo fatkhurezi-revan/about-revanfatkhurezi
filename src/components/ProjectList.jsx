@@ -35,7 +35,7 @@ const ProjectList = () => {
             </div>
           </div>
           <p className="text-sm text-on-surface-variant dark:text-dark-on-surface-variant leading-relaxed mt-1 w-full pr-10">
-            Inspirasi judul skripsi & laporan instan. Temukan idenya, kami siap bantu pengerjaannya!
+            AI assistant untuk membantu menemukan ide judul Akademik kamu!
           </p>
           <div className="absolute bottom-5 right-5 text-outline dark:text-dark-on-surface-variant group-hover:text-primary dark:group-hover:text-primary transition-colors">
             <FiArrowRight className="w-5 h-5" />
