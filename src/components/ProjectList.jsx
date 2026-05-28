@@ -5,7 +5,7 @@ import revaiLogo from '../assets/images/revai-logo.png';
 const ProjectList = () => {
   return (
     <section className="flex flex-col gap-4 w-full">
-      <div className="flex flex-col gap-1 text-center md:text-left">
+      <div className="flex flex-col gap-1 text-center">
         <h4 className="text-xs font-semibold text-outline dark:text-dark-on-surface-variant uppercase tracking-wider">
           EKSPLORASI & INOVASI
         </h4>
@@ -20,7 +20,7 @@ const ProjectList = () => {
           href="#"
           target="_blank"
           rel="noopener noreferrer"
-          className="block glass-panel rounded-2xl p-6 relative group flex flex-col gap-4 hover:border-primary/50 transition-all duration-300"
+          className="block glass-panel rounded-2xl p-6 group flex flex-col gap-4 hover:border-primary/50 transition-all duration-300"
         >
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center gap-4">
@@ -31,13 +31,13 @@ const ProjectList = () => {
                 JudulAI
               </h3>
             </div>
+            <div className="text-outline dark:text-dark-on-surface-variant group-hover:text-primary dark:group-hover:text-primary transition-colors flex-shrink-0">
+              <FiArrowRight className="w-5 h-5" />
+            </div>
           </div>
-          <p className="text-sm text-on-surface-variant dark:text-dark-on-surface-variant leading-relaxed mt-1 w-full pr-10">
+          <p className="text-sm md:text-base text-on-surface-variant dark:text-dark-on-surface-variant leading-relaxed mt-1 w-full">
             AI assistant untuk membantu menemukan ide judul Akademik kamu!
           </p>
-          <div className="absolute bottom-5 right-5 text-outline dark:text-dark-on-surface-variant group-hover:text-primary dark:group-hover:text-primary transition-colors">
-            <FiArrowRight className="w-5 h-5" />
-          </div>
         </motion.a>
       </div>
     </section>
