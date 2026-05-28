@@ -13,10 +13,10 @@ const CallToAction = () => {
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent-purple/10 rounded-full blur-3xl -ml-20 -mb-20 pointer-events-none"></div>
         
         <h3 className="text-2xl md:text-3xl font-bold text-on-surface dark:text-dark-on-surface relative z-10">
-          Mari Wujudkan Ide Anda Menjadi Nyata!
+          Punya Ide Proyek atau Butuh Solusi Digital?
         </h3>
         <p className="text-base text-on-surface-variant dark:text-dark-on-surface-variant max-w-lg relative z-10 leading-relaxed">
-          Butuh bantuan profesional untuk proyek website, pengolahan data, atau tugas IT Anda? Jangan ragu untuk menyapa dan ngobrol langsung via WhatsApp.
+          Mari kolaborasi untuk mengubah ide Anda menjadi solusi yang nyata dan berdampak. Jangan ragu untuk berdiskusi langsung via WhatsApp.
         </p>
         <a 
           href="https://wa.me/6281290018819?text=Halo%20Revan,%20saya%20melihat%20portofolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi..."
