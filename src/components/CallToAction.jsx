@@ -10,13 +10,13 @@ const CallToAction = () => {
     >
       <div className="bg-surface-white dark:bg-dark-surface border border-border-subtle dark:border-dark-border rounded-3xl p-6 md:p-8 flex flex-col items-center text-center gap-5 shadow-ambient dark:shadow-ambient-dark transition-colors duration-300">
         <h3 className="text-xl font-bold text-on-surface dark:text-dark-on-surface">
-          Punya proyek web, tumpukan data, atau tugas yang mepet deadline?
+          Punya ide, kebutuhan digital, atau tugas yang lagi bikin pusing?
         </h3>
         <p className="text-base text-on-surface-variant dark:text-dark-on-surface-variant max-w-md">
-          Ceritakan apa kebutuhan atau masalahmu. Mari kita selesaikan semuanya dengan cepat, rapi, dan terstruktur.
+          Yuk diskusikan dan cari solusi terbaiknya bareng-bareng.
         </p>
         <button className="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-3 px-8 rounded-full flex items-center justify-center gap-2 transition-colors shadow-sm w-full sm:w-auto mt-2">
-          <span>Diskusikan Proyekmu</span>
+          <span>Diskusikan Sekarang</span>
         </button>
       </div>
     </motion.section>
