@@ -30,7 +30,7 @@ const ProjectList = () => {
                 <img src={revaiLogo} alt="RevAI Logo" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-lg font-semibold text-on-surface dark:text-dark-on-surface">
-                RevAI
+                JudulAI
               </h3>
             </div>
           </div>
