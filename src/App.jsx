@@ -25,8 +25,16 @@ function App() {
       <div className="fixed inset-0 z-0 bg-grid-pattern opacity-50 pointer-events-none"></div>
       
       {/* Radial Gradient Glows */}
-      <div className="fixed top-[-20%] left-[-10%] w-[50%] h-[50%] bg-primary/10 dark:bg-primary/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
-      <div className="fixed bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-accent-purple/10 dark:bg-accent-purple/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
+      <motion.div 
+        animate={{ scale: [1, 1.15, 1], opacity: [0.8, 1, 0.8] }}
+        transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
+        className="fixed top-[-20%] left-[-10%] w-[50%] h-[50%] bg-primary/10 dark:bg-primary/5 rounded-full blur-[160px] pointer-events-none z-0"
+      />
+      <motion.div 
+        animate={{ scale: [1, 1.2, 1], opacity: [0.7, 1, 0.7] }}
+        transition={{ duration: 15, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+        className="fixed bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-accent-purple/10 dark:bg-accent-purple/5 rounded-full blur-[160px] pointer-events-none z-0"
+      />
 
       <div className="relative z-10 py-16 md:py-24 flex flex-col items-center">
         {/* Theme Toggle */}
