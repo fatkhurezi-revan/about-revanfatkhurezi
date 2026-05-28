@@ -34,10 +34,15 @@ const BusinessCard = () => {
           </p>
         </div>
         
-        <button className="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-3 px-6 rounded-full w-full flex items-center justify-center gap-2 transition-colors shadow-sm mt-2">
-          <span>Get Started</span>
+        <a 
+          href="#" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-3 px-6 rounded-full w-full flex items-center justify-center gap-2 transition-colors shadow-sm mt-2"
+        >
+          <span>Kunjungi Website RevTech</span>
           <FiArrowUpRight className="text-lg" />
-        </button>
+        </a>
       </div>
     </motion.section>
   );

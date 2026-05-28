@@ -19,6 +19,8 @@ const ProjectList = () => {
         <motion.a 
           whileHover={{ y: -4, scale: 1.01 }}
           href="#"
+          target="_blank"
+          rel="noopener noreferrer"
           className="block glass-panel rounded-2xl p-6 relative group flex flex-col gap-4 hover:border-primary/50 transition-all duration-300"
         >
           <div className="flex items-center justify-between w-full">
