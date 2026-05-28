@@ -8,9 +8,9 @@ const BusinessCard = () => {
       whileHover={{ y: -4 }}
       className="w-full relative group"
     >
-      <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-accent-purple rounded-3xl blur opacity-0 group-hover:opacity-20 transition duration-300"></div>
-      <div className="bg-surface-white dark:bg-dark-surface border border-border-subtle dark:border-dark-border rounded-3xl p-6 md:p-8 flex flex-col items-center text-center gap-6 shadow-ambient dark:shadow-ambient-dark relative z-10 transition-colors duration-300">
-        <div className="w-20 h-20 rounded-2xl bg-surface-bright dark:bg-dark-bg border border-border-subtle dark:border-dark-border flex-shrink-0 overflow-hidden shadow-sm flex items-center justify-center mt-4">
+      <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-accent-purple rounded-3xl blur-md opacity-20 group-hover:opacity-40 transition duration-500"></div>
+      <div className="glass-panel rounded-3xl p-8 md:p-10 flex flex-col items-center text-center gap-6 relative z-10 transition-all duration-500 hover:border-white/60 dark:hover:border-white/20">
+        <div className="w-24 h-24 rounded-2xl bg-white dark:bg-dark-bg/50 border border-white/50 dark:border-dark-border flex-shrink-0 overflow-hidden shadow-lg flex items-center justify-center mt-2">
           <img 
             src={revtechLogo} 
             alt="RevTech Logo" 

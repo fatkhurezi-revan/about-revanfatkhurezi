@@ -48,7 +48,7 @@ const Header = () => {
             key={i}
             whileHover={{ y: -3 }}
             href={social.href}
-            className="w-12 h-12 rounded-full bg-surface-white dark:bg-dark-surface border border-border-subtle dark:border-dark-border shadow-ambient flex items-center justify-center text-on-surface dark:text-dark-on-surface hover:text-primary dark:hover:text-primary hover:border-primary transition-colors"
+            className="w-12 h-12 rounded-full glass-button flex items-center justify-center text-on-surface dark:text-dark-on-surface hover:text-primary dark:hover:text-primary hover:border-primary transition-all hover:shadow-[0_0_15px_rgba(59,130,246,0.3)]"
           >
             {social.icon}
           </motion.a>
