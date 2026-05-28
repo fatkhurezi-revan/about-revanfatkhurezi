@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import BusinessCard from './components/BusinessCard';
 import ProjectList from './components/ProjectList';
+import RevTechWork from './components/RevTechWork';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 import { FiMoon, FiSun } from 'react-icons/fi';
@@ -47,6 +48,7 @@ function App() {
           <Header />
           <BusinessCard />
           <ProjectList />
+          <RevTechWork />
           <CallToAction />
         </motion.main>
         

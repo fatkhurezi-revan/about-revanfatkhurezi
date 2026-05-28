@@ -6,15 +6,12 @@ const ProjectList = () => {
   return (
     <section className="flex flex-col gap-4 w-full">
       <h4 className="text-xs font-semibold text-outline dark:text-dark-on-surface-variant uppercase tracking-wider text-center md:text-left">
-        JELAJAHI KARYA & BISNIS SAYA
+        JELAJAHI KARYA SAYA
       </h4>
       
       <div className="flex gap-3 overflow-x-auto no-scrollbar pb-4 pt-2">
         <button className="bg-primary/10 dark:bg-primary/20 text-primary dark:text-blue-300 font-semibold text-sm px-6 py-3 rounded-full border border-primary/30 whitespace-nowrap flex items-center gap-2 transition-all shadow-[0_0_15px_rgba(59,130,246,0.2)]">
           <FiCode className="w-4 h-4" /> My Projects
-        </button>
-        <button className="glass-button text-on-surface-variant dark:text-dark-on-surface font-semibold text-sm px-6 py-3 rounded-full whitespace-nowrap flex items-center gap-2 shadow-sm">
-          <FiBriefcase className="w-4 h-4" /> My Business
         </button>
       </div>
 
