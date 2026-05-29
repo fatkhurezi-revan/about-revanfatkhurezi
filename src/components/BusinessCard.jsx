@@ -35,7 +35,7 @@ const BusinessCard = () => {
         </div>
         
         <a 
-          href="#" 
+          href="https://revtech-website.vercel.app/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-3 px-6 rounded-full w-full flex items-center justify-center gap-2 transition-colors shadow-sm mt-2"
