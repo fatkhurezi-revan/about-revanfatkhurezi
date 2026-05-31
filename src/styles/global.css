@@ -63,15 +63,6 @@
     background: linear-gradient(110deg, transparent 20%, rgba(255,255,255,0.4) 40%, rgba(255,255,255,0.4) 60%, transparent 80%);
     background-size: 200% auto;
   }
-
-  .animate-text-shine {
-    background: linear-gradient(110deg, currentColor 20%, rgba(0,82,255,0.8) 40%, rgba(0,82,255,0.8) 60%, currentColor 80%);
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    animation: text-shine 3.5s infinite linear;
-  }
 }
 
 @keyframes fadeInUp {
@@ -105,9 +96,4 @@
   to {
     background-position: 200% center;
   }
-}
-
-@keyframes text-shine {
-  from { background-position: 200% center; }
-  to { background-position: -200% center; }
 }
