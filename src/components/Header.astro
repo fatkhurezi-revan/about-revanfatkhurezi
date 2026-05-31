@@ -1,0 +1,42 @@
+---
+import { Icon } from 'astro-icon/components';
+import profilePic from '../../public/images/profile-pic.png';
+---
+
+<header class="flex flex-col items-center text-center gap-6 animate-fade-in-up">
+  <div class="relative group cursor-pointer">
+    <div class="absolute -inset-1 bg-gradient-to-r from-primary to-accent-purple rounded-full blur opacity-30 group-hover:opacity-75 transition duration-500 animate-pulse"></div>
+    <div class="relative w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-surface-white dark:border-dark-bg overflow-hidden shadow-xl transform transition-transform duration-500 group-hover:scale-105">
+      <img 
+        src="/images/profile-pic.png" 
+        alt="Revan Fatkhurezi" 
+        class="w-full h-full object-cover"
+      />
+    </div>
+  </div>
+  
+  <div class="flex flex-col items-center gap-2">
+    <div class="flex items-center gap-2 bg-primary/10 dark:bg-primary/20 text-primary dark:text-blue-300 px-4 py-1.5 rounded-full text-xs font-bold tracking-wider mb-2">
+      <Icon name="feather:code" class="w-3.5 h-3.5" />
+      <span>TECH ENTHUSIAST</span>
+    </div>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-on-surface dark:text-dark-on-surface tracking-tight">
+      Revan Fatkhurezi
+    </h1>
+    <h2 class="text-lg md:text-xl text-on-surface-variant dark:text-dark-on-surface-variant max-w-lg mt-2 leading-relaxed">
+      Software Engineer & Founder of <span class="text-primary font-semibold">RevTech</span>
+    </h2>
+  </div>
+  
+  <div class="flex gap-4 mt-2">
+    <a href="https://github.com/fatkhurezi-revan" target="_blank" rel="noopener noreferrer" class="p-3 rounded-full bg-surface-bright dark:bg-dark-bg/50 border border-border-subtle dark:border-dark-border text-on-surface-variant dark:text-dark-on-surface-variant hover:text-primary dark:hover:text-primary hover:border-primary/50 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1">
+      <Icon name="feather:github" class="w-5 h-5" />
+    </a>
+    <a href="https://linkedin.com/in/revanfatkhurezi" target="_blank" rel="noopener noreferrer" class="p-3 rounded-full bg-surface-bright dark:bg-dark-bg/50 border border-border-subtle dark:border-dark-border text-on-surface-variant dark:text-dark-on-surface-variant hover:text-primary dark:hover:text-primary hover:border-primary/50 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1">
+      <Icon name="feather:linkedin" class="w-5 h-5" />
+    </a>
+    <a href="mailto:revanfatkhurezi@gmail.com" class="p-3 rounded-full bg-surface-bright dark:bg-dark-bg/50 border border-border-subtle dark:border-dark-border text-on-surface-variant dark:text-dark-on-surface-variant hover:text-primary dark:hover:text-primary hover:border-primary/50 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1">
+      <Icon name="feather:mail" class="w-5 h-5" />
+    </a>
+  </div>
+</header>

@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
+import Header from '../components/Header.astro';
+import BusinessCard from '../components/BusinessCard.astro';
+import ProjectList from '../components/ProjectList.astro';
+import CallToAction from '../components/CallToAction.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Revan Fatkhurezi - Portofolio">
+  <ThemeToggle />
+  
+  <main class="max-w-2xl mx-auto px-6 w-full flex flex-col gap-12 relative z-10">
+    <Header />
+    <BusinessCard />
+    <ProjectList />
+    <CallToAction />
+  </main>
+  
+  <Footer />
+</Layout>

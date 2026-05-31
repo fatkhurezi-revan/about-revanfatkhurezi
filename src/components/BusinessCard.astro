@@ -1,0 +1,42 @@
+---
+import { Icon } from 'astro-icon/components';
+---
+
+<section class="w-full relative group animate-fade-in-up delay-100 hover:-translate-y-1 transition-transform duration-300">
+  <div class="absolute -inset-0.5 bg-gradient-to-r from-primary to-accent-purple rounded-3xl blur-md opacity-20 group-hover:opacity-40 transition duration-500"></div>
+  <div class="glass-panel rounded-3xl p-8 md:p-10 flex flex-col items-center text-center gap-6 relative z-10 transition-all duration-500 hover:border-white/60 dark:hover:border-white/20">
+    <div class="w-24 h-24 rounded-2xl bg-white dark:bg-dark-bg/50 border border-white/50 dark:border-dark-border flex-shrink-0 overflow-hidden shadow-lg flex items-center justify-center mt-2">
+      <img 
+        src="/images/revtech-logo.png" 
+        alt="RevTech Logo" 
+        class="w-full h-full object-cover"
+      />
+    </div>
+    
+    <div class="flex flex-col items-center gap-2">
+      <h3 class="text-xl font-bold text-on-surface dark:text-dark-on-surface">RevTech</h3>
+      <div class="flex items-center justify-center gap-2">
+        <span class="relative flex h-2.5 w-2.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+        </span>
+        <span class="text-sm font-semibold tracking-wide text-emerald-600 dark:text-emerald-400 uppercase">
+          Available for Projects
+        </span>
+      </div>
+      <p class="text-sm text-on-surface-variant dark:text-dark-on-surface-variant leading-relaxed mt-4 max-w-lg">
+        Bantu wujudkan kebutuhan digitalmu dengan solusi yang modern dan profesional!
+      </p>
+    </div>
+    
+    <a 
+      href="https://revtech-website.vercel.app/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-3 px-6 rounded-full w-full flex items-center justify-center gap-2 transition-colors shadow-sm mt-2"
+    >
+      <span>Kunjungi Website</span>
+      <Icon name="feather:arrow-up-right" class="w-5 h-5" />
+    </a>
+  </div>
+</section>
