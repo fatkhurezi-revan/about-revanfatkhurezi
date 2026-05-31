@@ -7,16 +7,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary": "#3B82F6",
-        "primary-hover": "#2563EB",
+        "primary": "#4F46E5",
+        "primary-hover": "#4338CA",
         "surface-white": "#FFFFFF",
         "surface-bright": "#F8FAFC",
         "border-subtle": "#E2E8F0",
         "on-surface": "#191c1e",
         "on-surface-variant": "#424754",
         "outline": "#727785",
-        "accent-purple": "#5022ED",
-        "accent-pink": "#E9C0E9",
+        "accent-purple": "#8B5CF6",
+        "accent-pink": "#EC4899",
         
         // Dark mode colors
         "dark-bg": "#0F172A",

@@ -2,9 +2,9 @@
 import { Icon } from 'astro-icon/components';
 ---
 
-<section class="w-full relative group animate-fade-in-up delay-100 hover:-translate-y-1 transition-transform duration-300">
+<section class="w-full relative group animate-fade-in-up delay-100 hover:-translate-y-2 transition-transform duration-300">
   <div class="absolute -inset-0.5 bg-gradient-to-r from-primary to-accent-purple rounded-3xl blur-md opacity-20 group-hover:opacity-40 transition duration-500"></div>
-  <div class="glass-panel rounded-3xl p-8 md:p-10 flex flex-col items-center text-center gap-6 relative z-10 transition-all duration-500 hover:border-white/60 dark:hover:border-white/20">
+  <div class="glass-panel rounded-3xl p-8 md:p-10 flex flex-col items-center text-center gap-6 relative z-10 transition-all duration-500 hover:border-white/60 dark:hover:border-white/20 hover:shadow-xl dark:hover:shadow-2xl">
     <div class="w-24 h-24 rounded-2xl bg-white dark:bg-dark-bg/50 border border-white/50 dark:border-dark-border flex-shrink-0 overflow-hidden shadow-lg flex items-center justify-center mt-2">
       <img 
         src="/images/revtech-logo.png" 
@@ -33,10 +33,10 @@ import { Icon } from 'astro-icon/components';
       href="https://revtech-website.vercel.app/" 
       target="_blank" 
       rel="noopener noreferrer"
-      class="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-3 px-6 rounded-full w-full flex items-center justify-center gap-2 transition-colors shadow-sm mt-2"
+      class="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-3 px-6 rounded-full w-full flex items-center justify-center gap-2 transition-all duration-300 shadow-md hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] mt-2 group/btn"
     >
       <span>Kunjungi Website</span>
-      <Icon name="feather:arrow-up-right" class="w-5 h-5" />
+      <Icon name="feather:arrow-up-right" class="w-5 h-5 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
     </a>
   </div>
 </section>
