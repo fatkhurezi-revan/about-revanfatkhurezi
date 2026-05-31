@@ -33,10 +33,11 @@ import { Icon } from 'astro-icon/components';
       href="https://revtech-website.vercel.app/" 
       target="_blank" 
       rel="noopener noreferrer"
-      class="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-3 px-6 rounded-full w-full flex items-center justify-center gap-2 transition-all duration-300 shadow-md hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] mt-2 group/btn"
+      class="relative overflow-hidden bg-primary hover:bg-primary-hover text-surface-white font-semibold py-3 px-6 rounded-full w-full flex items-center justify-center gap-2 transition-all duration-300 shadow-md hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] mt-2 group/btn"
     >
-      <span>Kunjungi Website</span>
-      <Icon name="feather:arrow-up-right" class="w-5 h-5 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
+      <div class="absolute inset-0 w-full h-full animate-shine pointer-events-none mix-blend-soft-light opacity-50"></div>
+      <span class="relative z-10">Kunjungi Website</span>
+      <Icon name="feather:arrow-up-right" class="w-5 h-5 relative z-10 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
     </a>
   </div>
 </section>

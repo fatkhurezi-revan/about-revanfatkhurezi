@@ -17,10 +17,11 @@ import { Icon } from 'astro-icon/components';
       href="https://wa.me/6281290018819?text=Hallo%20Revan,%20saya%20tertarik%20untuk%20berdiskusi"
       target="_blank"
       rel="noopener noreferrer"
-      class="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-4 px-6 sm:px-10 rounded-full flex items-center justify-center gap-3 transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] w-full sm:w-auto mt-4 relative z-10 hover:-translate-y-1 hover:scale-105"
+      class="relative overflow-hidden bg-primary hover:bg-primary-hover text-surface-white font-semibold py-4 px-6 sm:px-10 rounded-full flex items-center justify-center gap-3 transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] w-full sm:w-auto mt-4 z-10 hover:-translate-y-1 hover:scale-105"
     >
-      <Icon name="feather:message-circle" class="w-5 h-5 flex-shrink-0" />
-      <span class="whitespace-nowrap text-sm sm:text-base">Diskusikan Sekarang</span>
+      <div class="absolute inset-0 w-full h-full animate-shine pointer-events-none mix-blend-soft-light opacity-50"></div>
+      <Icon name="feather:message-circle" class="w-5 h-5 flex-shrink-0 relative z-10" />
+      <span class="whitespace-nowrap text-sm sm:text-base relative z-10">Diskusikan Sekarang</span>
     </a>
   </div>
 </section>
